@@ -16,7 +16,7 @@ library(gridExtra)
 library(cowplot)
 
 # Insira o caminho do arquivo do Excel de demonstração
-df <- read_excel("C:/Users/AndersonCorreia/OneDrive - QUANTIZ CONSULTORIA EMPRESARIAL LTDA/Qtz_Evento_Nov/demo_clientes.xlsx")
+df <- read_excel("seudiretorio/demo_clientes.xlsx")
 
 # Definir as variáveis a serem padronizadas
 variaveis <- names( df[,-1] )
